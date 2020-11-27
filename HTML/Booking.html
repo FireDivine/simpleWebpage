@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head >    
+		<meta charset='UTF-8'>
+		<title>
+		Home page
+		</title>
+        <link rel="stylesheet" type="text/css" href="../CSS/Booking.css">
+	</head>
+    <body >
+        <div class="header">
+             <header class = header >
+            <a href="../mainPage.html"> <!--home page-->
+                <img src = "../Images/tranlogo.png" alt= "JellyBean at Your service" class="header" />
+            </a>
+          <h1>Welcome to the <b> JellyBean Oasis. </b> We hope you enjoy your stay</h1>
+        </header>     
+        </div>
+        <div class="nav">
+              <nav >
+                    <a class ="nav" href = "../mainPage.html"> Home </a>
+               
+                    <a class ="nav" href="Room_Types.html">Room Types</a>
+              
+                    <a class ="nav" href="Booking.html">Book a Room</a>
+               
+                    <a class ="nav" href="AboutUs.html">About Us</a>
+              
+                    <a class ="nav" href="Things_toDo.html">Attractions</a>
+            </nav>
+        </div>
+       <div>
+        <section>
+        <h2 class=" section">
+            <b>Booking a Room</b>   
+        </h2>
+        
+        </section>    
+          <div>
+            <aside>
+                <img src="../Images/chair-and-window.jpg" alt= "chair beside window" class="aside">
+            </aside>
+        </div>
+           
+    </div > 
+    <div class="form">
+        <form action="" method="get" >
+                <h5>
+                    Details:
+                </h5>
+                First name:  &emsp;&ensp;<input type="text" name="fname">
+                <br>
+                Last name:  &emsp;&ensp;   <input type="text" name="lname">
+                <br>
+                Email Address: <input type="email" name="email">
+                <br>
+                Phone Number: <input type="tel" name="PhoneNumber">
+                <br>
+               <!-- Postal Address: <input type="text" name=" address" >-->
+                Postal Address: <TEXTAREA NAME="Address" ROWS=3 COLS=30 ></TEXTAREA>
+
+                <br>
+                Room Type:   &emsp; <select name="Rommtype"><!--combox-->
+                                        <option value="1">1. the Studio</option>
+                                        <option value=" 2">2. One Bedroom unit</option>
+                                        <option value="3">3. Two bedroom unit</option>
+
+                                    </select>
+                <br>
+                start date:   &emsp;&ensp;&ensp; <input type="date" name = "startDate">
+                <br>
+                end date:&emsp;&emsp;&ensp; <input type="date" name = "endDate">
+                <br>
+                Complimentary Breakfast: <select><!--combox-->
+                                            <option value="continental">continental</option>
+                                            <option value=" from the field"> from the field</option>
+                                            <option value="eggs on toast">eggs on toast</option>
+                                            <option value="none">none</option>
+
+                                        </select>
+                <br>
+
+                <input type="button" name="BookButton" value="Book" >
+       </form> 
+     </div>      
+	</body>
+</html>
